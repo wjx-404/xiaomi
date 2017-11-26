@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/read.css">
+    <script src="public/js/jquery-3.2.1.js"></script>
+    <script src="public/js/read.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <div class="topbar-nav">
+                <a rel="nofollow" href="shouye.html" target="_blank">小米网</a><span class="sep">|</span>
+                <a rel="nofollow" href="MIUI.html" target="_blank">MiUi</a><span class="sep">|</span>
+                <a rel="nofollow" href="miliao.html" target="_blank">米聊</a><span class="sep">|</span>
+                <a rel="nofollow" href="game.html" target="_blank">游戏</a><span class="sep">|</span>
+                <a rel="nofollow" href="read.html" class='read' target="_blank">多看阅读</a><span class="sep">|</span>
+                <a rel="nofollow" href="yunfuwu.html" target="_blank">云服务</a><span class="sep">|</span>
+                <a rel="nofollow" href="mobile.html" target="_blank">小米商城移动版</a>
+            </div>
+            <div class="topbar-cart">
+                <a rel="nofollow" class="link" href="#" data-needlogin="true">登录</a><span class="sep">/</span>
+                <a rel="nofollow" class="link" href="#">注册</a><span class="sep">|</span>
+                <a rel="nofollow" class="cart-mini" href=""><i class="iconfont"><img src="public/img/home-site-topbar-1.png" width="28" height="28" /></i>购物车<span class="cart-mini-num">（0）</span></a><span class="sep">|</span>
+            </div>
+            <div class="topbar-info">
+                <div class="ma">
+                    <img src="public/image/read-0.png" alt="">
+                    <img src="public/image/read-1.png" alt="">
+                </div>
+                <a href="" class="link">关注</a>
+            </div>
+            <div class="nav">
+                <div class="quit">
+                    <ul>
+                        <li>兑换码换书</li>
+                        <li>最新上架</li>
+                    </ul>
+                </div>
+                <a href="" class="link">快速导航</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- logo -->
+    <div class="logo">
+        <img src="public/image/read-logo.png" alt="">
+        <div class="search">
+            <input type="text" value=" 搜索书名或作者... ">
+            <button>搜索</button>
+        </div>
+    </div>
+
+    <!-- nav  -->
+    <div class="top-nav">
+        <ul>
+            <li class="first">首页</li>
+            <li>榜单</li>
+            <li>书评</li>
+            <li>精品·免费</li>
+            <li>分类</li>
+            <li>客户端</li>
+            <li>论坛</li>
+        </ul>
+    </div>
+
+    <!-- content0 -->
+    <div class="content0">
+        <div class="left">
+            <table border="1" width="220" height="600" style="border-collapse: collapse;border:none;">
+                <tr class="cor">
+                    <td colspan="2">图书分类</td>
+                </tr>
+                <tr>
+                    <td><a href="">小说</a><br><span>16209</span></td>
+                    <td><a href="">经管</a><br><span>9505</span></td>
+                </tr>
+                <tr class="cor">
+                    <td><a href="">成功励志</a><br><span>7319</span></td>
+                    <td><a href="">文人社科</a><br><span>7803</span></td>
+                </tr>
+                <tr>
+                    <td><a href="">文学</a><br><span>11209</span></td>
+                    <td><a href="">计算机</a><br><span>2305</span></td>
+                </tr>
+                <tr class="cor">
+                    <td><a href="">历史</a><br><span>3209</span></td>
+                    <td><a href="">生活</a><br><span>7305</span></td>
+                </tr>
+                <tr>
+                    <td><a href="">动漫绘本</a><br><span>2209</span></td>
+                    <td><a href="">传记</a><br><span>3205</span></td>
+                </tr>
+                <tr class="cor">
+                    <td><a href="">杂志</a><br><span>3209</span></td>
+                    <td><a href="">原创文学</a><br><span>3505</span></td>
+                </tr>
+                <tr>
+                    <td><a href="">两性情感</a><br><span>579</span></td>
+                    <td><a href="">自然科学</a><br><span>1505</span></td>
+                </tr>
+                <tr class="cor">
+                    <td><a href="">少儿</a><br><span>3409</span></td>
+                    <td><a href="">旅游</a><br><span>1105</span></td>
+                </tr>
+                <tr>
+                    <td><a href="">政治军事</a><br><span>1409</span></td>
+                    <td><a href="">艺术</a><br><span>1505</span></td>
+                </tr>
+                <tr class="cor">
+                    <td><a href="">法律</a><br><span>555</span></td>
+                    <td><a href="">教育</a><br><span>2105</span></td>
+                </tr>
+                <tr>
+                    <td><a href="">外语</a><br><span>1409</span></td>
+                    <td><a href="">进口原版</a><br><span>8405</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="center">
+            <div class="site-centerbar">
+                <div class="container">
+                    <div class="home-hero">
+                        <div id="home-hero-slider" style="left:0px;">
+                            <a href="#"><img src="public/image/read-2.png" width="700" height="240" /></a>
+                            <a href="#"><img src="public/image/read-3.png" width="700" height="240" /></a>
+                            <a href="#"><img src="public/image/read-4.png" width="700" height="240" /></a>
+                        </div>
+                        <div class="but1">
+                            <span indexs="0" class="on"></span>
+                            <span indexs="1"></span>
+                            <span indexs="2"></span>
+                        </div>
+                        <a href="javascript:;" class="arr1" id="pre"></a>
+                        <a href="javascript:;" class="arr2" id="next"></a>
+                    </div>
+                    <div class="tuijie">
+                        <h5>重磅推介</h5>
+                        <span class='xian'></span>
+                    </div>
+                    <div class="book">
+                        <div class="left-book">
+                            <div class="left">
+                                <img src="public/image/read-5.png" alt=""><br>
+                                <span>￥109.99</span>
+                            </div>
+                            <div class="book-right">
+                                <a href="" class="bookname">德川家康（全13册）</a>
+                                <ul>
+                                    <li>☆☆☆☆(14)</li>
+                                    <li>【日】山冈庄八</li>
+                                    <li>权书、史书、商书，书写德川家康用兵、驭人、齐家、治国的一生！</li>
+                                </ul>
+                                <a href="" class="dingyue">立即阅读</a>
+                            </div>
+                        </div>
+                        <div class="right-book">
+                            <div class="left">
+                                <img src="public/image/read-6.png" alt=""><br>
+                                <span>￥19.99</span>
+                            </div>
+                            <div class="book-right">
+                                <a href="" class="bookname">阿瑟·克拉克经典科幻超级套装（共四册）</a>
+                                <ul>
+                                    <li>☆☆☆☆(88)</li>
+                                    <li>【英】阿瑟·克拉克</li>
+                                    <li>20世纪最伟大的先知，科幻小说宗师阿瑟·克拉克经典作品集！</li>
+                                </ul>
+                                <a href="" class="dingyue">立即阅读</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="active">
+                        <span class="re">活动快讯</span><span class="se">|</span>
+                        <a href="">超级畅销的好书特价了，戳此看看~</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="enter">
+                <h5 class="hi">Hi 欢迎使用多看阅读</h5>
+                <span class='kpt'>跨平台/多设备同步阅读进度、笔记和图书，轻松实现云阅读。</span>
+                <br><a href="" class="free">免费畅读</a>
+                <br><a href="" class="enter-c">登录</a>
+            </div>
+            <div class="newbook">
+                <h5 class="new">重磅新书</h5>
+                <span class="jie">全世界都在追的美剧《双峰》官方授权小说； 谁能料大唐国运，竟系于一纸《兰亭序》； NASA八大行星经典摄影集； 英国现象级畅销科普读物，像美剧一样精彩！</span><br>
+                <div class="hero">
+                    <div id="hero-slider" style="left:0px;">
+                        <a href="#"><img src="public/image/read-7.png" width="97" height="129" />
+                        </a>
+                        <a href="#"><img src="public/image/read-8.png" width="97" height="129" />
+                        </a>
+                        <a href="#"><img src="public/image/read-9.png" width="97" height="129" />
+                        </a>
+                        <a href="#"><img src="public/image/read-10.png" width="97" height="129" />
+                        </a>
+                    </div>
+                    <div class="but2">
+                        <span indexs="0" class="on"></span>
+                        <span indexs="1"></span>
+                        <span indexs="2"></span>
+                        <span indexs="3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="orxian"></div>
+    <!-- content1 -->
+    <div class="content1">
+        <div class="left">
+            <div class="nav">
+                <a href="javascript:;">畅销榜</a>
+                <a href="javascript:;">月度榜</a>
+                <a href="javascript:;">好评榜</a>
+            </div>
+            <ul>
+                <li><span class="weight">1.</span><img src="public/image/read-11.png" alt=""><span class="wen"><span class="jue">绝境安全手册</span><br><span class="colo">【美】乔舒亚·皮文</span></span>
+                </li>
+                <li><span class="first">2.</span><span class="last"><span class="name">洗脑术：怎样有逻辑的说服他人</span><br><span class="aut">高德</span></span>
+                </li>
+                <li><span class="first">3.</span><span class="last"><span class="name">我的第一本金融入门书</span><br><span class="aut">高德</span></span>
+                </li>
+                <li><span class="first">4.</span><span class="last"><span class="name">像小强一样活着</span><br><span class="aut">邹一南 石腾超 毛小龙</span></span>
+                </li>
+                <li><span class="first">5.</span><span class="last"><span class="name">小米的尖叫（中国故事）</span><br><span class="aut">不K拉</span></span>
+                </li>
+                <li><span class="first">6.</span><span class="last"><span class="name">别废话！你还可以更好</span><br><span class="aut">金错刀 雷军 等</span></span>
+                </li>
+                <li><span class="first">7.</span><span class="last"><span class="name">冒牌女神(不解释的真理)</span><br><span class="aut">社社</span></span>
+                </li>
+                <li><span class="first">8.</span><span class="last"><span class="name">行行走在死亡边缘</span><br><span class="aut">夏忆然</span></span>
+                </li>
+                <li><span class="first">9.</span><span class="last"><span class="name">彩色绘铅笔技法</span><br><span class="aut">正午</span></span>
+                </li>
+                <li><span class="first">10.</span><span class="last"><span class="name">管人很重要，用人更重要</span><br><span class="aut">佳图文化</span></span>
+                </li>
+                <li class='more'>更多畅销榜 > ></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="nav">
+                <h4>精品推介</h4>
+                <a href="javascript:;">查看更多 >></a>
+            </div>
+            <ul>
+                <li><img src="public/image/read-12.png" alt=""><span class="name">兰亭序杀局I:玄甲卫</span><br><span class="xin">☆☆☆☆（7）</span><br><span class="aut">王觉仁</span><br><span class="pice">￥14.99</span></li>
+                <li><img src="public/image/read-13.png" alt=""><span class="name">红楼梦（全二册 果麦经典）</span><br><span class="xin">☆☆☆☆☆（9）</span><br><span class="aut">（清）曹雪芹</span><br><span class="pice">￥16.99</span></li>
+                <li><img src="public/image/read-14.png" alt=""><span class="name">何所冬暖，何所夏凉</span><br><span class="xin">☆☆☆☆☆（54）</span><br><span class="aut">顾西爵</span><br><span class="pice">￥23.00</span></li>
+                <li><img src="public/image/read-15.png" alt=""><span class="name">思维的艺术系列（共三册）</span><br><span class="xin">☆☆☆☆（4）</span><br><span class="aut">【西】拉斐尔·桑</span><br><span class="pice">￥14.99</span></li>
+                <li><img src="public/image/read-16.png" alt=""><span class="name">程序员代码面试指南</span><br><span class="xin">☆☆☆☆☆（2）</span><br><span class="aut">左程云</span><br><span class="pice">￥6.99</span></li>
+                <li><img src="public/image/read-17.png" alt=""><span class="name">世界的凛冬（共三册）</span><br><span class="xin">☆☆☆☆（162）</span><br><span class="aut">【英】肯·福莱特</span><br><span class="pice">￥29.00</span></li>
+                <li><img src="public/image/read-18.png" alt=""><span class="name">银河帝国（13-15）：帝国系列</span><br><span class="xin">☆☆☆☆☆（24）</span><br><span class="aut">【美】艾萨克</span><br><span class="pice">￥25.99</span></li>
+            </ul>
+            <ul>
+                <li><img src="public/image/read-19.png" alt=""><span class="name">双峰：神秘史</span><br><span class="xin">☆☆☆☆（25）</span><br><span class="aut">【美】艾萨克·布里克斯</span><br><span class="pice">￥119.99</span></li>
+                <li><img src="public/image/read-20.png" alt=""><span class="name">算法图解</span><br><span class="xin">☆☆☆☆（8）</span><br><span class="aut">【美】Aditya Bha</span><br><span class="pice">￥25.00</span></li>
+                <li><img src="public/image/read-21.png" alt=""><span class="name">练好口才的第一本书</span><br><span class="xin">☆☆☆☆（64）</span><br><span class="aut">殷亚敏</span><br><span class="pice">￥9.69</span></li>
+                <li><img src="public/image/read-22.png" alt=""><span class="name">巨人的陨落（共三册）</span><br><span class="xin">☆☆☆☆（884）</span><br><span class="aut">【英】肯·福莱特</span><br><span class="pice">￥12.99</span></li>
+                <li><img src="public/image/read-23.png" alt=""><span class="name">人类简史：从动物到上帝</span><br><span class="xin">☆☆☆☆☆（2610）</span><br><span class="aut">【以色列】尤瓦</span><br><span class="pice">￥26.99</span></li>
+                <li><img src="public/image/read-24.png" alt=""><span class="name">番茄工作法图解</span><br><span class="xin">☆☆☆☆（900）</span><br><span class="aut">【瑞典】诺特伯格</span><br><span class="pice">￥12.00</span></li>
+                <li><img src="public/image/read-25.png" alt=""><span class="name">白夜行</span><br><span class="xin">☆☆☆☆☆（5331）</span><br><span class="aut">【日】东野圭吾</span><br><span class="pice">￥14.99</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- content2 -->
+    <div class="content2">
+        <img src="public/image/read-26.png" alt="" width="225" height="123">
+        <img src="public/image/read-27.png" alt="" width="225" height="123">
+        <img src="public/image/read-28.png" alt="" width="225" height="123">
+        <img src="public/image/read-29.png" alt="" width="225" height="123">
+    </div>
+
+    <!-- 特价图书 -->
+    <div class="tejia">
+        <div class="nav">
+            <h4>特价图书</h4>
+            <a href="">查看更多 >></a>
+        </div>
+        <ul>
+            <li><img src="public/image/read-30.png" alt=""><span class="name">好吗好的</span><br><span class="aut">大冰</span><br><span class="pice">￥5.99</span></li>
+            <li><img src="public/image/read-31.png" alt=""><span class="name">史蒂夫·乔布斯传</span><br><span class="aut">【美】沃尔特</span><br><span class="pice">￥12.99</span></li>
+            <li><img src="public/image/read-32.png" alt=""><span class="name">杀死一只知更鸟</span><br><span class="aut">【美】哈珀·李</span><br><span class="pice">￥6.99</span></li>
+            <li><img src="public/image/read-33.png" alt=""><span class="name">我们为什么发胖</span><br><span class="aut">【美】盖里·陶比</span><br><span class="pice">￥6.99</span></li>
+            <li><img src="public/image/read-34.png" alt=""><span class="name">大众心研究</span><br><span class="aut">【日】高木直子</span><br><span class="pice">￥2.99</span></li>
+            <li><img src="public/image/read-35.png" alt=""><span class="name">离凰（全三册）</span><br><span class="aut">【法】古斯塔夫</span><br><span class="pice">￥8.99</span></li>
+            <li><img src="public/image/read-36.png" alt=""><span class="name">中国跑步指南</span><br><span class="aut">猗兰霓裳</span><br><span class="pice">￥5.99</span></li>
+            <li><img src="public/image/read-37.png" alt=""><span class="name">如何高效记忆</span><br><span class="aut">宋歌</span><br><span class="pice">￥11.99</span></li>
+            <li><img src="public/image/read-38.png" alt=""><span class="name">节日万岁</span><br><span class="aut">【美】肯尼思</span><br><span class="pice">￥14.99</span></li>
+        </ul>
+    </div>
+
+    <!-- 书评广场 -->
+    <div class="shuping">
+        <div class="nav">
+            <h4>书评广场</h4>
+            <a href="">查看更多 >></a>
+        </div>
+        <ul>
+            <li>
+                <img src="public/image/read-39.png" alt="">
+                <span class="jie">
+                    <span class="name">一平米健身：硬派健身</span><br>
+                <span class="miao">这本书要回答一个问题：如何在有限的时间和空间条件下最高效地健身。为了回答这个问题，作者先从理论上解释了以下一些问题：1. 为什么要健身？答：节食减肥无效</span><br>
+                <span class="xing">☆☆☆☆</span>
+                </span>
+            </li>
+            <li>
+                <img src="public/image/read-40.png" alt="">
+                <span class="jie">
+                    <span class="name">三生三世·十里桃花</span><br>
+                <span class="miao">《三生三世十里桃花》这本书真的很好看，看到最后大结局我都哭了，真的很感动，我要感谢唐七公子，写了这么一个美好的故事。浅浅和夜华的爱情虽然让人感到心酸</span><br>
+                <span class="xing">☆☆☆☆☆</span>
+                </span>
+            </li>
+            <li>
+                <img src="public/image/read-41.png" alt="">
+                <span class="jie">
+                    <span class="name">小岛经济学</span><br>
+                <span class="miao">通俗易懂。简单总结一下，就是说，经济的发展的基础，是生产力的发展，生产效率的提高。归根结底，是农业工业制造业，而其他的只是为提高生产力服务的东西。消费</span><br>
+                <span class="xing">☆☆☆</span>
+                </span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="public/image/read-42.png" alt="">
+                <span class="jie">
+                    <span class="name">银河系搭车客系列</span><br>
+                <span class="miao">强烈推荐，大概是我至今为止看过的最有趣的科幻小说.几十年前的作品里有非常耐人寻味的，仍然适用于当今社会的十分有趣的嘲讽。从作者本身的各种邮件和访谈能够看</span><br>
+                <span class="xing">☆☆☆☆☆</span>
+                </span>
+            </li>
+            <li>
+                <img src="public/image/read-43.png" alt="">
+                <span class="jie">
+                    <span class="name">我不喜欢这世界，只喜欢你</span><br>
+                <span class="miao">“我不喜欢这世界，我只喜欢你”他们的爱情应该也是平平淡淡的吧，但是在乔一看来一切都是那么美好，她对生活的态度让我很喜欢也很欣赏。。。有些爱情就真的可以像小</span><br>
+                <span class="xing">☆☆☆☆</span>
+                </span>
+            </li>
+            <li>
+                <img src="public/image/read-44.png" alt="">
+                <span class="jie">
+                    <span class="name">人类砍头小史</span><br>
+                <span class="miao">全世界的人民都有神话故事，而神与人的最简单区别就是——神是能永生的，或者死后可以复活（耶稣就是个很好的例子）——而人，管你是不是叱咤风云的人物呢，终究还</span><br>
+                <span class="xing">☆☆☆☆☆</span>
+                </span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- content3 -->
+    <div class="content3">
+        <img src="public/image/read-45.png" alt="" width="225" height="123">
+        <img src="public/image/read-46.png" alt="" width="225" height="123">
+        <img src="public/image/read-47.png" alt="" width="225" height="123">
+        <img src="public/image/read-48.png" alt="" width="225" height="123">
+    </div>
+
+    <!-- 最近上架 -->
+    <div class="up">
+        <div class="nav">
+            <h4>最近上架</h4>
+            <a href="javascript:;">查看更多 >></a>
+        </div>
+        <ul>
+            <li><img src="public/image/read-12.png" alt=""><span class="name">兰亭序杀局I:玄甲卫</span><br><span class="xin">☆☆☆☆（7）</span><br><span class="aut">王觉仁</span><br><span class="pice">￥14.99</span></li>
+            <li><img src="public/image/read-13.png" alt=""><span class="name">红楼梦（全二册 果麦经典）</span><br><span class="xin">☆☆☆☆☆（9）</span><br><span class="aut">（清）曹雪芹</span><br><span class="pice">￥16.99</span></li>
+            <li><img src="public/image/read-14.png" alt=""><span class="name">何所冬暖，何所夏凉</span><br><span class="xin">☆☆☆☆☆（54）</span><br><span class="aut">顾西爵</span><br><span class="pice">￥23.00</span></li>
+            <li><img src="public/image/read-15.png" alt=""><span class="name">思维的艺术系列（共三册）</span><br><span class="xin">☆☆☆☆（4）</span><br><span class="aut">【西】拉斐尔·桑</span><br><span class="pice">￥14.99</span></li>
+            <li><img src="public/image/read-16.png" alt=""><span class="name">程序员代码面试指南</span><br><span class="xin">☆☆☆☆☆（2）</span><br><span class="aut">左程云</span><br><span class="pice">￥6.99</span></li>
+            <li><img src="public/image/read-17.png" alt=""><span class="name">世界的凛冬（共三册）</span><br><span class="xin">☆☆☆☆（162）</span><br><span class="aut">【英】肯·福莱特</span><br><span class="pice">￥29.00</span></li>
+            <li><img src="public/image/read-49.png" alt=""><span class="name">银河帝国（13-15）：帝国系列</span><br><span class="xin">☆☆☆☆☆（24）</span><br><span class="aut">【美】艾萨克</span><br><span class="pice">￥15.99</span></li>
+            <li><img src="public/image/read-50.png" alt=""><span class="name">银河帝国（13-15）：帝国系列</span><br><span class="xin">☆☆☆☆☆（24）</span><br><span class="aut">【美】艾萨克</span><br><span class="pice">￥18.99</span></li>
+            <li><img src="public/image/read-51.png" alt=""><span class="name">银河帝国（13-15）：帝国系列</span><br><span class="xin">☆☆☆☆☆（24）</span><br><span class="aut">【美】艾萨克</span><br><span class="pice">￥12.99</span></li>
+        </ul>
+        <ul>
+            <li><img src="public/image/read-19.png" alt=""><span class="name">双峰：神秘史</span><br><span class="xin">☆☆☆☆（25）</span><br><span class="aut">【美】艾萨克·布里克斯</span><br><span class="pice">￥119.99</span></li>
+            <li><img src="public/image/read-20.png" alt=""><span class="name">算法图解</span><br><span class="xin">☆☆☆☆（8）</span><br><span class="aut">【美】Aditya Bha</span><br><span class="pice">￥25.00</span></li>
+            <li><img src="public/image/read-21.png" alt=""><span class="name">练好口才的第一本书</span><br><span class="xin">☆☆☆☆（64）</span><br><span class="aut">殷亚敏</span><br><span class="pice">￥9.69</span></li>
+            <li><img src="public/image/read-22.png" alt=""><span class="name">巨人的陨落（共三册）</span><br><span class="xin">☆☆☆☆（884）</span><br><span class="aut">【英】肯·福莱特</span><br><span class="pice">￥12.99</span></li>
+            <li><img src="public/image/read-23.png" alt=""><span class="name">人类简史：从动物到上帝</span><br><span class="xin">☆☆☆☆☆（2610）</span><br><span class="aut">【以色列】尤瓦</span><br><span class="pice">￥26.99</span></li>
+            <li><img src="public/image/read-24.png" alt=""><span class="name">番茄工作法图解</span><br><span class="xin">☆☆☆☆（900）</span><br><span class="aut">【瑞典】诺特伯格</span><br><span class="pice">￥12.00</span></li>
+            <li><img src="public/image/read-52.png" alt=""><span class="name">白夜行</span><br><span class="xin">☆☆☆☆☆（5331）</span><br><span class="aut">【日】东野圭吾</span><br><span class="pice">￥19.99</span></li>
+            <li><img src="public/image/read-54.png" alt=""><span class="name">白夜行</span><br><span class="xin">☆☆☆☆☆（5331）</span><br><span class="aut">【日】东野圭吾</span><br><span class="pice">￥21.99</span></li>
+            <li><img src="public/image/read-53.png" alt=""><span class="name">白夜行</span><br><span class="xin">☆☆☆☆☆（5331）</span><br><span class="aut">【日】东野圭吾</span><br><span class="pice">￥30.99</span></li>
+        </ul>
+    </div>
+
+    <!-- 果麦 -->
+    <div class="guo">
+        <div class="nav">
+            <img src="public/image/read-55.png" alt="">
+            <img src="public/image/read-56.png" alt="">
+            <img src="public/image/read-57.png" alt="">
+            <img src="public/image/read-58.png" alt="">
+            <img src="public/image/read-59.png" alt="">
+            <a href="">查看更多出版社 >></a>
+        </div>
+        <div class="left">
+            <h5>杭州果麦文化传媒有限公司</h5>
+            <p>杭州果麦文化传媒有限公司由出版人路金波先生及骨干员工于2012年8月发起设立。果麦公司致力于为城市新兴中产阶级打造优质的、多媒体形式的文化产品。主要方向有文学、历史、科学、宗教四大类。公司与作家韩寒、安妮宝贝、冯唐</p>
+            <a href="">查看更多图书 >></a>
+        </div>
+        <div class="right">
+            <ul>
+                <li><img src="public/image/read-19.png" alt=""><span class="name">双峰：神秘史</span><br><span class="xin">☆☆☆☆（25）</span><br><span class="aut">【美】艾萨克·布里克斯</span><br><span class="pice">￥119.99</span></li>
+                <li><img src="public/image/read-20.png" alt=""><span class="name">算法图解</span><br><span class="xin">☆☆☆☆（8）</span><br><span class="aut">【美】Aditya Bha</span><br><span class="pice">￥25.00</span></li>
+                <li><img src="public/image/read-21.png" alt=""><span class="name">练好口才的第一本书</span><br><span class="xin">☆☆☆☆（64）</span><br><span class="aut">殷亚敏</span><br><span class="pice">￥9.69</span></li>
+                <li><img src="public/image/read-22.png" alt=""><span class="name">巨人的陨落（共三册）</span><br><span class="xin">☆☆☆☆（884）</span><br><span class="aut">【英】肯·福莱特</span><br><span class="pice">￥12.99</span></li>
+                <li><img src="public/image/read-23.png" alt=""><span class="name">人类简史：从动物到上帝</span><br><span class="xin">☆☆☆☆☆（2610）</span><br><span class="aut">【以色列】尤瓦</span><br><span class="pice">￥26.99</span></li>
+                <li><img src="public/image/read-24.png" alt=""><span class="name">番茄工作法图解</span><br><span class="xin">☆☆☆☆（900）</span><br><span class="aut">【瑞典】诺特伯格</span><br><span class="pice">￥12.00</span></li>
+                <li><img src="public/image/read-51.png" alt=""><span class="name">银河帝国（13-15）：帝国系列</span><br><span class="xin">☆☆☆☆☆（24）</span><br><span class="aut">【美】艾萨克</span><br><span class="pice">￥12.99</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- content4 -->
+    <div class="content4">
+        <img src="public/image/read-60.png" alt="" width="225" height="123">
+        <img src="public/image/read-61.png" alt="" width="225" height="123">
+        <img src="public/image/read-62.png" alt="" width="225" height="123">
+        <img src="public/image/read-63.png" alt="" width="225" height="123">
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="friends_link">
+            <ul>
+                <li>
+                    <a href="">手机版</a><span class="shu">|</span></li>
+                <li>
+                    <a href="">关于我们</a><span class="shu">|</span></li>
+                <li>
+                    <a href="">联系我们</a><span class="shu">|</span></li>
+                <li>
+                    <a href="">商务合作</a><span class="shu">|</span></li>
+                <li>
+                    <a href="">隐私政策</a><span class="shu">|</span></li>
+            </ul>
+        </div>
+        <p class="copyright">
+            &copy;<a href="">www.miliao.com</a> <a style="color:#666" href="">京ICP备10046444号</a> <img src="public/image/read-64.png" alt="">京公网安备11010802020134
+        </p>
+        <div class="weixin">
+            <img src="public/image/read-65.png" alt="">
+            <img src="public/image/read-66.png" alt="">
+            <!-- <div class="ma">
+                <span>微信扫一下</span><br>
+                <img src="public/image/read-66.png" alt="" class="em">
+            </div> -->
+            <ul>
+                <li>意见反馈</li>
+                <li class='xiao'>readerfeedback@duokan.com</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

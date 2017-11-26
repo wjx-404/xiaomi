@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/shouye.css">
+    <script src="public/js/jquery-3.2.1.js"></script>
+    <script src="public/js/shouye.js"></script>
+</head>
+
+<body>
+    <!--site-topbar-->
+    <div class="site-topbar">
+        <div class="container">
+            <div class="topbar-nav">
+                <a rel="nofollow" href="shouye.html" target="_blank">小米商城</a><span class="sep">|</span>
+                <a rel="nofollow" href="MIUI.html" target="_blank">MiUi</a><span class="sep">|</span>
+                <a rel="nofollow" href="miliao.html" target="_blank">米聊</a><span class="sep">|</span>
+                <a rel="nofollow" href="game.html" target="_blank">游戏</a><span class="sep">|</span>
+                <a rel="nofollow" href="read.html" target="_blank">多看阅读</a><span class="sep">|</span>
+                <a rel="nofollow" href="yunfuwu.html" target="_blank">云服务</a><span class="sep">|</span>
+                <a rel="nofollow" href="jinrong.html" target="_blank">金融</a><span class="sep">|</span>
+                <a rel="nofollow" href="mobile.html" target="_blank" target="_blank">小米商城移动版</a><span class="sep">|</span>
+                <a rel="nofollow" href="question.html" target="_blank">问题反馈</a><span class="sep">|</span>
+                <a rel="nofollow" href="JavaScript:;" target="_blank">Select Region</a>
+            </div>
+            <div class="topbar-cart" id="J_miniCartTrigger">
+                <a rel="nofollow" class="cart-mini" id="J_miniCartBtn" href=""><i class="iconfont"><img src="public/img/home-site-topbar-1.png" width="28" height="28" /></i>购物车<span class="cart-mini-num">（0）</span></a>
+                <div class="cart-menu" id="J_miniCartMenu">
+                    <div class="loading">
+                        购物车还没有商品，赶紧选购吧！
+                    </div>
+                </div>
+            </div>
+            <div class="topbar-info" id="J_userInfo">
+                <a rel="nofollow" class="link" href="enter.html" target="_blank" data-needlogin="true">登录</a><span class="sep">|</span>
+                <a rel="nofollow" class="link" href="zhuce.html" target="_blank">注册</a><span class="sep">|</span>
+                <span class="message"><a rel="nofollow" href="xiaoxi.html" target="_blank">消息通知<i class="J_miMessageTotal"></i></a>
+</span>
+            </div>
+        </div>
+    </div>
+    <!--site-header-->
+    <div class="site-header">
+        <!--logo-->
+        <div class="container">
+            <div class="header-logo">
+                <a class="logo" href="shouye.html"><img src="public/img/logo.jpg" width="55" height="55" /></a>
+            </div>
+            <div class="header-nav">
+                <ul class="nav-list ">
+                    <li class="nav-item">
+                        <a class="link" href="#"><span class="text">小米手机</span></a>
+                        <div class="item-children">
+                            <div class="container">
+                                <ul class="children-list">
+                                    <li class="first">
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-1.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米6</a></div>
+                                        <p class="price">2499元起</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-2.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米Max 2</a></div>
+                                        <p class="price">1699元起</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-3.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米5X</a></div>
+                                        <p class="price">1299元起</p>
+
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-4.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米Note 2</a></div>
+                                        <p class="price">2799元起</p>
+
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-5.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米5s</a></div>
+                                        <p class="price">1999元</p>
+
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-6.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米MIX</a></div>
+                                        <p class="price">3499元起</p>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#"><span class="text">红米</span><span class="arrow"></span></a>
+                        <div class="item-children">
+                            <div class="container">
+                                <ul class="children-list clearfix">
+                                    <li class="first">
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-4.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">红米Note 5A 标准版</div></a>
+                                            <p class="price">999元起</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-6.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">红米Note 5A 高配版</div></a>
+                                            <p class="price">899元起</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-6.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">红米Note 4X</div></a>
+                                            <p class="price">999元起</p>
+                                    </li>
+                                </ul>
+                                </div>
+                                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="javascript: void(0);"><span class="text">平板 笔记本</span><span class="arrow"></span></a>
+                        <div class="item-children">
+                            <div class="container">
+                                <ul class="children-list clearfix">
+                                    <li class="first">
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-7.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">平板·笔记本</a></div>
+                                        <p class="price">999元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-7.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米平板3 64GB</a></div>
+                                        <p class="price">1499元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-8.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米笔记本Air 12.5</a></div>
+                                        <p class="price">3599元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-9.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米笔记本Air 13.3</a></div>
+                                        <p class="price">4799元</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="javascript: void(0);"><span class="text">电视</span><span class="arrow"></span></a>
+                        <div class="item-children">
+                            <div class="container">
+                                <ul class="children-list clearfix">
+                                    <li class="first">
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-10.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米电视4 49英寸</a></div>
+                                        <p class="price">3499元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-11.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米电视4 55英寸</a></div>
+                                        <p class="price">4299元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-12.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米电视4 65英寸</a></div>
+                                        <p class="price">9999元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-13.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米电视4A 43英寸</a></div>
+                                        <p class="price">2099元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-14.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米电视4A 49英寸</a></div>
+                                        <p class="price">2599元起</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-15.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">查看全部<br>小米电视</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="javascript: void(0);"><span class="text">盒子·影音</span><span class="arrow"></span></a>
+                        <div class="item-children">
+                            <div class="container">
+                                <ul class="children-list clearfix">
+                                    <li class="first">
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-26.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米盒子3s</a></div>
+                                        <p class="price">299元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-26.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米盒子3c</a></div>
+                                        <p class="price">229元</p>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <a href="#"><img src="public/img/home-site-header-27.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米盒子3 增强版</a></div>
+                                        <p class="price">399元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-28.png" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米家庭影院</a></div>
+                                        <p class="price">1999元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-30.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米家庭音响 标准版</a></div>
+                                        <p class="price">699元</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="javascript: void(0);"><span class="text">路由器</span><span class="arrow"></span></a>
+                        <div class="item-children">
+                            <div class="container">
+                                <ul class="children-list clearfix">
+                                    <li class="first">
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-16.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米路由器 HD/Pro</a></div>
+                                        <p class="price">499元起</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#">
+                                                <img src="public/img/home-site-header-16.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米路由器 3G</a></div>
+                                        <p class="price">249元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-17.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米路由器 3</a></div>
+                                        <p class="price">129元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-17.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米路由器 3C</a></div>
+                                        <p class="price">99元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-18.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米WiFi电力猫</a></div>
+                                        <p class="price">79元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-19.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米WiFi放大器 2</a>
+                                        </div>
+                                        <p class="price">49元</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="javascript: void(0);"><span class="text">智能硬件</span><span class="arrow"></span></a>
+                        <div class="item-children">
+                            <div class="container">
+                                <ul class="children-list">
+                                    <li class="first">
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-20.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">九号平衡车</a></div>
+                                        <p class="price">1999元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-21.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米净水器</a></div>
+                                        <p class="price">1299元起</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-22.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米压力IH电饭煲</a></div>
+                                        <p class="price">999元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-23.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">小米空气净化器 2</a></div>
+                                        <p class="price">699元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-24.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">智能摄像机</a></div>
+                                        <p class="price">399元</p>
+                                    </li>
+                                    <li>
+                                        <div class="figure figure-thumb">
+                                            <a href="#"><img src="public/img/home-site-header-25.jpg" width="160" height="110" /></a>
+                                        </div>
+                                        <div class="title"><a href="#">查看全部<br>智能硬件</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#"><span class="text">服务</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link" href="#"><span class="text">社区</span></a>
+                    </li>
+                </ul>
+                </div>
+                <div class="header-search">
+                    <form id="searchForm" class="search-form" action="#">
+                        <input class="search-text" type="search" id="search" name="keyword" autocomplete="off">
+                        <input type="submit" class="search-btn " value="搜索" />
+                        <div class="search-hot-words">
+                            <span><a href="#">红米Note 5A</a></span><span><a href="#">小米 Max2</a></span>
+                        </div>
+                        <div class="keyword-list">
+                            <ul class="result-list">
+                                <li><a href="#">小米5</a></li>
+                                <li><a href="#">小米5s</a></li>
+                                <li><a href="#">小米MAX</a></li>
+                                <li><a href="#">小米笔记本AIR</a></li>
+                                <li><a href="#">小米平板2</a></li>
+                                <li><a href="#">小米WiFi放大器 2</a></li>
+                                <li><a href="#">空气净化器</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+                </div>
+                </div>
+                <div class="home-hero-container">
+                    <div class="container">
+                        <div class="site-category">
+                            <ul id="J_categoryList" class="site-category-list">
+                                <li class="category-item">
+                                    <div class="title"><a href="#">手机 电话<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children1">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-1.jpg" width="40" height="40" /><span class="text">启星Note 2</span></a><a class="btn-buy" href="#">选购</a></li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-2.jpg" width="40" height="40" /><span class="text">启星mix</span></a><a class="btn-buy" href="#">选购</a></li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-3.jpg" width="40" height="40" /><span class="text">启星5s</span></a><a class="btn-buy" href="#">选购</a></li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-4.jpg" width="40" height="40" /><span class="text">启星5s plus</span></a><a class="btn-buy" href="#">选购</a></li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-4.jpg" width="40" height="40" /><span class="text">启星5</span></a><a class="btn-buy" href="#">选购</a></li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-5.jpg" width="40" height="40" /><span class="text">启星max</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-6.jpg" width="40" height="40" /><span class="text">启星4</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-6.jpg" width="40" height="40" /><span class="text">启星Note 4</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-7.jpg" width="40" height="40" /><span class="text">对比手机4</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-1-8.jpg" width="40" height="40" /><span class="text">电话卡</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">笔记本 平板<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children2">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-2-1.jpg" width="40" height="40" /><span class="text">小米笔记本AIR</span></a><a class="btn-buy" href="#">选购</a></li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-2-2.jpg" width="40" height="40" /><span class="text">小米平板2</span></a><a class="btn-buy" href="#">选购</a></li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-2-3.jpg" width="40" height="40" /><span class="text">USB—C转接器</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-2-4.jpg" width="40" height="40" /><span class="text">小米笔记本内胆包</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-2-1.jpg" width="40" height="40" /><span class="text">小米便携鼠标</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">电视 盒子<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children3">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-1.jpg" width="40" height="40" /><span class="text">小米电视3s 43英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-2.jpg" width="40" height="40" /><span class="text">小米电视3s 48英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-3.png" width="40" height="40" /><span class="text">小米电视3s 55英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-4.png" width="40" height="40" /><span class="text">小米电视3s 60英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-1.jpg" width="40" height="40" /><span class="text">小米电视3s 65英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-2.jpg" width="40" height="40" /><span class="text">小米电视3s 65英寸 曲</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-3.png" width="40" height="40" /><span class="text">小米电视3 55英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-4.png" width="40" height="40" /><span class="text">小米电视3s 60英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-1.jpg" width="40" height="40" /><span class="text">小米电视3s 70英寸</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-5.jpg" width="40" height="40" /><span class="text">小米电视3s</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-6.jpg" width="40" height="40" /><span class="text">小米电视3c</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-5.jpg" width="40" height="40" /><span class="text">小米电视3s 增强版</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-6.jpg" width="40" height="40" /><span class="text">小米盒子 mini</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-7.jpg" width="40" height="40" /><span class="text">小米低音炮</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-8.jpg" width="40" height="40" /><span class="text">蓝牙手柄</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-3-9.jpg" width="40" height="40" /><span class="text">电视盒子配件</span></a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">路由器 智能硬件<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children4">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-1.jpg" width="40" height="40" /><span class="text">米家扫地机器人及配件</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-2.jpg" width="40" height="40" /><span class="text">小米VR眼镜</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-3.jpg" width="40" height="40" /><span class="text">小米路由器</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-4.jpg" width="40" height="40" /><span class="text">九号平衡车</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-5.jpg" width="40" height="40" /><span class="text">电助力折叠自行车</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-6.jpg" width="40" height="40" /><span class="text">米家恒温电水壶</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-7.jpg" width="40" height="40" /><span class="text">手表</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-8.jpg" width="40" height="40" /><span class="text">米家智能电饭煲</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-9.jpg" width="40" height="40" /><span class="text">摄像机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-10.jpg" width="40" height="40" /><span class="text">净化器及滤芯</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-11.jpg" width="40" height="40" /><span class="text">净水器及滤芯</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-12.jpg" width="40" height="40" /><span class="text">血压计</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-13.jpg" width="40" height="40" /><span class="text">米兔积木机器人</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-14.jpg" width="40" height="40" /><span class="text">智能灯</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-15.jpg" width="40" height="40" /><span class="text">米兔智能故事机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-16.jpg" width="40" height="40" /><span class="text">智能家庭组合</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-17.jpg" width="40" height="40" /><span class="text">手环及配件</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-18.jpg" width="40" height="40" /><span class="text">体重秤</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-19.jpg" width="40" height="40" /><span class="text">电动滑板车</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-20.jpg" width="40" height="40" /><span class="text">小米无人机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-21.jpg" width="40" height="40" /><span class="text">智米除菌加湿器</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-4-22.jpg" width="40" height="40" /><span class="text">全部智能硬件</span></a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">移动电源 电池 插线板<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children5">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-1.jpg" width="40" height="40" /><span class="text">小米移动电源</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-2.jpg" width="40" height="40" /><span class="text">插线板</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-3.jpg" width="40" height="40" /><span class="text">品牌移动电源</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-4.jpg" width="40" height="40" /><span class="text">移动电源附件</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-5.jpg" width="40" height="40" /><span class="text">电池</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-6.jpg" width="40" height="40" /><span class="text">充电器</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-7.jpg" width="40" height="40" /><span class="text">彩虹5号电池</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-5-7.jpg" width="40" height="40" /><span class="text">彩虹7号电池</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">耳机 音箱<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children6">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-1.jpg" width="40" height="40" /><span class="text">小米头戴式耳机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-2.jpg" width="40" height="40" /><span class="text">小米圈铁耳机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-2.jpg" width="40" height="40" /><span class="text">小米胶囊耳机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-3.jpg" width="40" height="40" /><span class="text">小米活塞耳机清新版</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-5.jpg" width="40" height="40" /><span class="text">小米蓝牙耳机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-5.jpg" width="40" height="40" /><span class="text">小米运动蓝牙耳机</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-2.jpg" width="40" height="40" /><span class="text">品牌耳机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-6.jpg" width="40" height="40" /><span class="text">小米网络音响</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-7.png" width="40" height="40" /><span class="text">小米蓝牙音箱</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-8.jpg" width="40" height="40" /><span class="text">小米随身蓝牙音箱</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-8.jpg" width="40" height="40" /><span class="text">小钢炮音箱</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-9.jpg" width="40" height="40" /><span class="text">小钢炮音箱 青春版</span></a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-10.jpg" width="40" height="40" /><span class="text">小米方盒子音箱</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-7.png" width="40" height="40" /><span class="text">小米音乐闹钟</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-9.jpg" width="40" height="40" /><span class="text">小米米兔音箱</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-8.jpg" width="40" height="40" /><span class="text">网络收音机</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-6-6.jpg" width="40" height="40" /><span class="text">音乐蓝牙车充</span></a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">保护套 贴膜<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children7">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-7-1.jpg" width="40" height="40" /><span class="text">贴膜</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-7-2.jpg" width="40" height="40" /><span class="text">保护套/保护壳</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">线材 支架 存储卡<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children8">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-8-1.jpg" width="40" height="40" /><span class="text">线材</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-8-2.jpg" width="40" height="40" /><span class="text">自拍杆</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-8-3.jpg" width="40" height="40" /><span class="text">手机支架</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-8-4.jpg" width="40" height="40" /><span class="text">存储卡</span></a>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">箱包 服饰<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children9">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-9-1.jpg" width="40" height="40" /><span class="text">箱包</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-9-2.jpg" width="40" height="40" /><span class="text">90分旅行箱</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-9-3.jpg" width="40" height="40" /><span class="text">服饰</span></a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                </li>
+                                <li class="category-item">
+                                    <div class="title"><a href="#">米兔 生活周边<span class="span1">></span></a>
+                                        <div>
+                                            <div class="children children10">
+                                                <ul class="children-list">
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-10-1.jpg" width="40" height="40" /><span class="text">米兔玩偶</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-10-2.jpg" width="40" height="40" /><span class="text">鼠标垫</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-10-3.jpg" width="40" height="40" /><span class="text">生活周边</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-10-4.jpg" width="40" height="40" /><span class="text">《小米》会刊</span></a>
+                                                    </li>
+                                                    <li class="star-goods">
+                                                        <a class="link" href="#"><img src="public/image/site-category-10-5.jpg" width="40" height="40" /><span class="text">8H乳胶枕</span></a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                </li>
+                            </ul>
+                            </div>
+                            <div class="home-hero">
+                                <div id="home-hero-slider" style="left:0px;">
+                                    <a href="#"><img src="public/img/home-home-hero-container-0.jpg" width="1226" height="460" /></a>
+                                    <a href="#"><img src="public/img/home-home-hero-container-1.jpg" width="1226" height="460" /></a>
+                                    <a href="#"><img src="public/img/home-home-hero-container-2.jpg" width="1226" height="460" /></a>
+                                    <a href="#"><img src="public/img/home-home-hero-container-5.jpg" width="1226" height="460" /></a>
+                                    <a href="#"><img src="public/img/home-home-hero-container-3.jpg" width="1226" height="460" /></a>
+                                </div>
+                                <div class="but1">
+                                    <span indexs="0" class="on"></span>
+                                    <span indexs="1"></span>
+                                    <span indexs="2"></span>
+                                    <span indexs="3"></span>
+                                    <span indexs="4"></span>
+                                </div>
+                                <a href="javascript:;" class="arr" id="pre">&lt;</a>
+                                <a href="javascript:;" class="arr" id="next">&gt;</a>
+                            </div>
+                            </div>
+                            </div>
+                            <!--home-hero-sub -->
+                            <div class="home-hero-sub">
+                                <div class="container">
+                                    <div class="sub-row1">
+                                        <ul class="home-channel-list">
+                                            <li class="">
+                                                <a href="#"><img src="public/img/home-hero-sub-1.png" width="30px" height="30px" /><br/>选购手机</a>
+                                            </li>
+                                            <li class="left">
+                                                <a href="#"><img src="public/img/home-hero-sub-1.png" width="30px" height="30px" /><br/>企业团购</a>
+                                            </li>
+                                            <li class="left">
+                                                <a href="#"><img src="public/img/home-hero-sub-1.png" width="30px" height="30px" /><br/>官翻产品</a>
+                                            </li>
+                                            <li class="top">
+                                                <a href="#"><img src="public/img/home-hero-sub-1.png" width="30px" height="30px" /><br/>小米移动</a>
+                                            </li>
+                                            <li class="top left">
+                                                <a href="#"><img src="public/img/home-hero-sub-1.png" width="30px" height="30px" /><br/>以旧换新</a>
+                                            </li>
+                                            <li class="top left">
+                                                <a href="#"><img src="public/img/home-hero-sub-1.png" width="30px" height="30px" /><br/>话费充值</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-row2">
+                                        <ul class="home-promo-list">
+                                            <li>
+                                                <a class="item" href="#"><img src="public/img/home-hero-sub-4.jpg" width="632" height="340" /></a>
+                                            </li>
+                                            <li>
+                                                <a class="item" href="#"><img src="public/img/home-hero-sub-3.jpg" width="632" height="340" /></a>
+                                            </li>
+                                            <li>
+                                                <a class="item" href="#"><img src="public/img/home-hero-sub-2.jpg" width="632" height="340" /></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--home-star-goods -->
+                            <!--热门商品推荐位 -->
+                            <div class="home-star-goods">
+                                <div class="container">
+                                    <div class="xm-plain-box">
+                                        <div class="box-hd">
+                                            <h2 class="title">小米明星单品</h2>
+                                            <div class="more">
+                                                <div class="xm-controls">
+                                                    <span class="span2 span2-1"><</span>
+                                                    <span class="span2 span2-2">></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-bd">
+                                            <div class="xm-carousel-wrapper">
+                                                <ul class="xm-carousel-list goods-list rainbow-list">
+                                                    <li class="rainbow-item-1">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-1.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">小米5s Plus</a></h3>
+                                                        <p class="desc">5.7英寸大屏双摄手机，拍照黑科技</p>
+                                                        <p class="price">2299元起</p>
+                                                    </li>
+                                                    <li class="rainbow-item-2">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-2.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">启星手机4</a></h3>
+                                                        <p class="desc">1月13日早10点开售</p>
+                                                        <p class="price">699元起</p>
+                                                    </li>
+                                                    <li class="rainbow-item-3">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-3.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">小米电视3s 55英寸</a></h3>
+                                                        <p class="desc">人工智能电视，4K大屏新旗舰</p>
+                                                        <p class="price">3699元起</p>
+                                                    </li>
+                                                    <li class="rainbow-item-4">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-4.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">小米手环 2</a></h3>
+                                                        <p class="desc">OLED 显示屏幕，升级计步算法</p>
+                                                        <p class="price">149元</p>
+                                                    </li>
+                                                    <li class="rainbow-item-5">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-5.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">小米移动电源2</a></h3>
+                                                        <p class="desc">双向快充，高密度锂聚合物电芯</p>
+                                                        <p class="price">79元</p>
+                                                    </li>
+                                                    <li class="rainbow-item-6">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-6.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">启星Note4</a></h3>
+                                                        <p class="desc">十核旗舰处理器，一体化全金属机身</p>
+                                                        <p class="price">999元起</p>
+                                                    </li>
+                                                    <li class="rainbow-item-7">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-7.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">米盒子3 增强版</a></h3>
+                                                        <p class="desc">高端 4K 网络机顶盒</p>
+                                                        <p class="price">399元</p>
+                                                    </li>
+                                                    <li class="rainbow-item-8">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-8.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">小米路由器3</a></h3>
+                                                        <p class="desc">更快更强，不止四天线</p>
+                                                        <p class="price">149元</p>
+                                                    </li>
+                                                    <li class="rainbow-item-9">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-9.png" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">小米平板2 16GB现货</a></h3>
+                                                        <p class="desc">轻薄全金属，海量内容</p>
+                                                        <p class="price">999元</p>
+                                                    </li>
+                                                    <li class="rainbow-item-10">
+                                                        <a class="thumb" href="#"><img src="public/img/home-star-goods-10.jpg" width="200" height="200" /></a>
+                                                        <h3 class="title"><a href="#">小米体重秤</a></h3>
+                                                        <p class="desc">100克，喝杯水都可感知的精准</p>
+                                                        <p class="price">99元</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--home-main-->
+                            <div class="home-main">
+                                <div class="container">
+                                    <div id="smart" class="home-brick-box">
+                                        <div class="box-hd">
+                                            <h2 class="title">智能硬件</h2>
+                                            <div class="more"><a class="more-link more-link1" href="#">查看全部<span class="jt"> > </span></a></div>
+                                        </div>
+                                        <div class="box-bd">
+                                            <div class="row">
+                                                <div class="span3">
+                                                    <ul class="brick-promo-list">
+                                                        <li class="brick-item-m-1 brick-item">
+                                                            <a href="#"><img src="public/img/home-main-1-00.jpg" /></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="span4">
+                                                    <ul class="brick-list">
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-1-01.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">米家压力IH电饭煲</a></h3>
+                                                            <p class="desc">智能烹饪，灰铸铁粉体涂层内胆</p>
+                                                            <p class="price"> <span class="num">999</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"> <img src="public/img/home-main-1-02.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米净水器（厨下式）</a></h3>
+                                                            <p class="desc">RO反渗透直出纯净水，隐藏安装</p>
+                                                            <p class="price"> <span class="num">1999</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-1-03.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">米家飞利浦智睿台灯二代</a></h3>
+                                                            <p class="desc">感知环境光，主动优化场景照明</p>
+                                                            <p class="price"> <span class="num">199</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-1-04.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米米家电动滑板车</a></h3>
+                                                            <p class="desc">极简几何设计，1 分钟轻松上手</p>
+                                                            <p class="price"> <span class="num">1999</span>元</p>
+                                                            <div class="flag-new">新品</div>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-1-05.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">米兔智能故事机</a></h3>
+                                                            <p class="desc">米信远程互动，智能语音交互</p>
+                                                            <p class="price"> <span class="num">199</span>元</p>
+                                                            <div class="flag-new">新品</div>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-1-06.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">米家扫地机器人</a></h3>
+                                                            <p class="desc">远程智能控制，扫得干净扫得快</p>
+                                                            <p class="price"> <span class="num">1699</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-1-07.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米盒子mini版（礼品装）</a></h3>
+                                                            <p class="desc"></p>
+                                                            <p class="price"><span class="num">179</span>元<del><span class="num">199</span>元</del></p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-1-08.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">米家小白智能摄像机</a></h3>
+                                                            <p class="desc">360° 全景拍摄，1080P 高清摄像</p>
+                                                            <p class="price"> <span class="num">399</span>元 </p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="match" class="home-brick-box">
+                                        <div class="box-hd">
+                                            <h2 class="title">搭配</h2>
+                                            <div class="more">
+                                                <ul class="tab-list">
+                                                    <li class="tab-active1"><a class="more-link" href="#">热门</a></li>
+                                                    <li class="tab-active2"><a class="more-link" href="#">耳机音箱</a></li>
+                                                    <li class="tab-active3"><a class="more-link" href="#">电源</a></li>
+                                                    <li class="tab-active4"><a class="more-link" href="#">电池存储卡</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="box-bd">
+                                            <div class="row">
+                                                <div class="span3">
+                                                    <ul class="brick-promo-list">
+                                                        <li class="brick-item-m-1">
+                                                            <a href="#"><img src="public/img/home-main-2-00.jpg" width="234" height="300" /></a>
+                                                        </li>
+                                                        <li class="brick-item-m-1">
+                                                            <a href="#"><img src="public/img/home-main-2-01.jpg" width="234" height="300" /></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="span4">
+                                                    <ul class="brick-list span-active1">
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-1-1.jpg" width="150" height="150" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">20000Ah小米移动电源2</a></h3>
+                                                            <p class="price"> <span class="num">149</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"> <img src="public/img/home-main-2-1-2.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">20000Ah小米移动电源 高配版</a></h3>
+                                                            <p class="price"> <span class="num">149</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-1-3.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米蓝牙音箱</a></h3>
+                                                            <p class="price"> <span class="num">199</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-1-4.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米铁圈耳机Pro</a></h3>
+                                                            <p class="price"> <span class="num">149</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-1-6.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米蓝牙小钢炮音箱1</a></h3>
+                                                            <p class="price"> <span class="num">69</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-1-6.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米蓝牙小钢炮音箱2</a></h3>
+                                                            <p class="price"> <span class="num">129</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-1-7.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米车载充电器</a></h3>
+                                                            <p class="price"><span class="num">49</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-1-8.jpg" width="80" height="80" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米移动电源</a></h3>
+                                                            <p class="price"> <span class="num">59</span>元 </p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="inter"> <a href="#">浏览更多</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="brick-list span-active2">
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-2-1.jpg" width="150" height="150" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米手机5 智能翻盖保护套</a></h3>
+                                                            <p class="price"> <span class="num">49</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"> <img src="public/img/home-main-2-2-2.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米Max 智能显示保护套</a></h3>
+                                                            <p class="price"> <span class="num">59</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-2-3.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星2 智能显示保护套</a></h3>
+                                                            <p class="price"> <span class="num">29</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-2-4.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米手机5s plus 智能翻盖保护套</a></h3>
+                                                            <p class="price"> <span class="num">59</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-2-5.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星Note3 炫彩翻盖保护套</a></h3>
+                                                            <p class="price"> <span class="num">29</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-2-6.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星3 炫彩翻盖保护套</a></h3>
+                                                            <p class="price"> <span class="num">39</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-2-7.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星4 炫彩翻盖保护套</a></h3>
+                                                            <p class="price"><span class="num">49</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-2-8.jpg" width="80" height="80" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星平板2 炫彩翻盖保护套</a></h3>
+                                                            <p class="price"> <span class="num">59</span>元 </p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="inter"> <a href="#">浏览更多</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="brick-list span-active3">
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-3-1.jpg" width="150" height="150" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米5s 极薄防蓝光贴膜</a></h3>
+                                                            <p class="price"> <span class="num">49</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"> <img src="public/img/home-main-2-3-2.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星Note4 高透贴膜</a></h3>
+                                                            <p class="price"> <span class="num">19</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-3-3.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米平板2 高透贴膜</a></h3>
+                                                            <p class="price"> <span class="num">29</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-3-4.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星Note3 钢化玻璃膜</a></h3>
+                                                            <p class="price"> <span class="num">9.9</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-3-5.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星4 高透贴膜</a></h3>
+                                                            <p class="price"> <span class="num">19</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-3-6.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星5 钢化玻璃膜</a></h3>
+                                                            <p class="price"> <span class="num">29</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-3-7.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">启星Pro 高透贴膜</a></h3>
+                                                            <p class="price"><span class="num">9.9</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-3-8.jpg" width="80" height="80" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米手机5 高透贴膜</a></h3>
+                                                            <p class="price"> <span class="num">19</span>元 </p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="inter"> <a href="#">浏览更多</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="brick-list span-active4">
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-4-1.jpg" width="150" height="150" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">青米USB快速充电数据线</a></h3>
+                                                            <p class="price"> <span class="num">9.9</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"> <img src="public/img/home-main-2-4-2.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米指环支架 金色</a></h3>
+                                                            <p class="price"> <span class="num">19</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-4-3.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米蓝牙手柄</a></h3>
+                                                            <p class="price"> <span class="num">99</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-4-4.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">蓝牙语音体感遥控器</a></h3>
+                                                            <p class="price"> <span class="num">99</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-4-5.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米便携鼠标</a></h3>
+                                                            <p class="price"> <span class="num">99</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-4-6.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">小米千兆网线2</a></h3>
+                                                            <p class="price"> <span class="num">14.9</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-4-7.jpg" width="160" height="160" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">USC Type-C转接口</a></h3>
+                                                            <p class="price"><span class="num">5</span>元</p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="figure-img">
+                                                                <a href="#"><img src="public/img/home-main-2-4-8.jpg" width="80" height="80" /></a>
+                                                            </div>
+                                                            <h3 class="title"><a href="#">青米USB快速充电数据线</a></h3>
+                                                            <p class="price"> <span class="num">9.9</span>元 </p>
+                                                        </li>
+                                                        <li class="brick-item-m-2 brick1">
+                                                            <div class="inter"> <a href="#">浏览更多</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--site-footer-->
+                            <div class="site-footer">
+                                <div class="container">
+                                    <div class="footer-service">
+                                        <ul class="list-service">
+                                            <li><a rel="nofollow" href="#">预约维修服务</a></li>
+                                            <li><a rel="nofollow" href="#">7天无理由退货</a></li>
+                                            <li><a rel="nofollow" href="#">15天免费换货</a></li>
+                                            <li><a rel="nofollow" href="#">满150元包邮</a></li>
+                                            <li><a rel="nofollow" href="#">520余家售后网</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-links">
+                                        <dl class="col-links">
+                                            <dt>帮助中心</dt>
+                                            <dd><a rel="nofollow" href="#">账户管理</a></dd>
+                                            <dd><a rel="nofollow" href="#">购物指南</a></dd>
+                                            <dd><a rel="nofollow" href="#">订单操作</a></dd>
+                                        </dl>
+                                        <dl class="col-links ">
+                                            <dt>服务支持</dt>
+                                            <dd><a rel="nofollow" href="#">售后政策</a></dd>
+                                            <dd><a rel="nofollow" href="#">自助服务</a></dd>
+                                            <dd><a rel="nofollow" href="#">相关下载</a></dd>
+                                        </dl>
+                                        <dl class="col-links ">
+                                            <dt>线下门店</dt>
+                                            <dd><a rel="nofollow" href="#">小米之家</a></dd>
+                                            <dd><a rel="nofollow" href="#">服务网点</a></dd>
+                                            <dd><a rel="nofollow" href="#">零售网点</a></dd>
+                                        </dl>
+                                        <dl class="col-links ">
+                                            <dt>关于小米</dt>
+                                            <dd><a rel="nofollow" href="#">了解小米</a></dd>
+                                            <dd><a rel="nofollow" href="#">加入小米</a></dd>
+                                            <dd><a rel="nofollow" href="#">联系我们</a></dd>
+                                        </dl>
+                                        <dl class="col-links ">
+                                            <dt>关注我们</dt>
+                                            <dd><a rel="nofollow" href="#">新浪米博</a></dd>
+                                            <dd><a rel="nofollow" href="#">小米部落</a></dd>
+                                            <dd><a rel="nofollow" href="#">官方米信</a></dd>
+                                        </dl>
+                                        <dl class="col-links ">
+                                            <dt>特色服务</dt>
+                                            <dd><a rel="nofollow" href="#">F 码通道</a></dd>
+                                            <dd><a rel="nofollow" href="#">礼物码</a></dd>
+                                            <dd><a rel="nofollow" href="#">防伪查询</a></dd>
+                                        </dl>
+                                        <div class="col-contact">
+                                            <p class="phone">400-100-5678</p>
+                                            <p><span class="J_serviceTime-normal" style="">周一至周日 8:00-18:00</span><span class="J_serviceTime-holiday" style="display:none;">2月7日至13日服务时间 9:00-18:00</span><br>（仅收市话费）</p>
+                                            <a rel="nofollow" class="btn" href="#">24小时在线客服</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--site-info-->
+                            <div class="site-info">
+                                <div class="container">
+                                    <div class="logo ir"><img src="public/img/logo.jpg" width="55" height="55" /></div>
+                                    <div class="info-text">
+                                        <p class="sites"><a rel="nofollow" href="#">小米商城</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">MIUI</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">米聊</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">多看书城</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">小米路由器</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">视频电话</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">小米后院</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">小米天猫店</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">小米淘宝直营店</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">小米网盟</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">小米移动</a><span class="sep">|</span>
+                                            <a rel="nofollow" href="#">Select Region</a><span class="sep">|</span></p>
+                                        <p>©<a href="#">mi.com</a> 京ICP证110507号 <a href="#">京ICP备10046444号</a><a rel="nofollow" href="#">京公网安备11010802020134号 </a><a rel="nofollow" href="#">京网文[2014]0059-0009号</a>
+                                            <br> 违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                                        </p>
+                                    </div>
+                                    <div class="info-links">
+                                        <a rel="nofollow" href="#"><img src="public/img/site-info-1.png" /></a>
+                                        <a rel="nofollow" href="#"><img src="public/img/site-info-2.png" /></a>
+                                        <a rel="nofollow" href="#"><img src="public/img/site-info-3.png" /></a>
+                                        <a rel="nofollow" href="#"><img src="public/img/site-info-4.png" /></a>
+                                    </div>
+                                </div>
+                                <div class="slogan">开拓智能极致，重新定义生活</div>
+                            </div>
+</body>
+
+</html>

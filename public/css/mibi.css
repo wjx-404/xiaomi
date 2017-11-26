@@ -1,0 +1,165 @@
+body {
+  font: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  min-width: 1226px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* site-topbar */
+.site-topbar {
+  position: relative;
+  height: 40px;
+  z-index: 30;
+  font-size: 12px;
+  background: #FAFAFA;
+}
+.site-topbar .container {
+  width: 1226px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.site-topbar .container .topbar-nav {
+  float: left;
+  height: 40px;
+  font-size: 12px;
+  font-size: 20px;
+  line-height: 40px;
+  overflow: hidden;
+  _zoom: 1;
+  /*针对IE浏览器*/
+}
+.site-topbar .container .topbar-nav a {
+  text-decoration: none;
+  color: #9B9B9B;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.site-topbar .container .topbar-nav a .pre {
+  margin-left: 5px;
+}
+.site-topbar .container .topbar-nav .link1 {
+  color: black;
+}
+.site-topbar .container .topbar-nav a:hover {
+  color: black;
+}
+.site-topbar .container .topbar-info {
+  line-height: 40px;
+  float: right;
+}
+.site-topbar .container .topbar-info a {
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #9B9B9B;
+}
+.site-topbar .container .topbar-info a .pre {
+  margin-left: 10px;
+}
+.site-topbar .container .topbar-info a:hover {
+  color: black;
+}
+.nav {
+  width: 970px;
+  height: 100px;
+  margin: 0 auto;
+}
+.nav img {
+  float: left;
+  margin-top: 30px;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 30px;
+  float: left;
+  margin-top: 30px;
+  color: black;
+  margin-left: 10px;
+}
+.nav ul {
+  list-style: none;
+  width: 350px;
+  height: 35px;
+  float: right;
+  margin-top: 35px;
+}
+.nav ul li {
+  font-size: 20px;
+  float: left;
+  margin-left: 50px;
+}
+.nav ul .first {
+  color: #FD6440;
+}
+.nav ul li:hover {
+  cursor: pointer;
+  color: #FD6440;
+}
+.content {
+  width: 970px;
+  height: 370px;
+  margin: 0 auto;
+  background: url(../img/mibi-0.jpg) no-repeat;
+}
+.content a {
+  display: block;
+  text-decoration: none;
+  width: 160px;
+  height: 50px;
+  float: left;
+  background-color: yellow;
+  border-radius: 5px;
+  box-shadow: 0 5px yellowgreen;
+  margin-left: 400px;
+  margin-top: 250px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #6F2200;
+}
+.containe {
+  width: 750px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.containe ul {
+  list-style: none;
+  float: left;
+  margin-top: 30px;
+}
+.containe ul li {
+  float: left;
+  margin-left: 50px;
+}
+.containe ul li img {
+  float: left;
+}
+.containe ul li span {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: gray;
+}
+.footer {
+  width: 600px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.footer span {
+  float: left;
+  font-size: 11px;
+  color: gray;
+}
+.footer img {
+  float: left;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.footer img:hover {
+  cursor: pointer;
+}

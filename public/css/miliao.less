@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    height: 80px;
+    width: 1366px;
+    z-index: 30;
+    font-size: 25px;
+    color: #b0b0b0;
+    background: #6AB34B;
+        .nav {
+            height:80px;
+            margin-right: auto;
+            margin-left: auto;
+            .logo{
+                float:left;
+                margin-left: 85px;
+            }
+            ul{
+                list-style: none;
+                float:left;
+                margin-left:80px;
+                li{
+                    float:left;
+                    line-height: 80px;
+                     border: 1px solid transparent;
+                    width: 80px;
+                    height: 80px;
+                     text-align: center; 
+                    a{
+                       height: 80px;
+                        width: 80px;
+                        border: 1px soloid gray;
+                        text-decoration: none;
+                        color:white;
+                    }                           
+                }
+                .nav-active{
+                    background-color: #2793F8;
+                } 
+                li:hover{
+                    background-color: #2793F8;
+                }   
+            }
+        }
+}
+.site-centerbar {
+    position: relative;
+    z-index: 10;
+    height: 600px;
+    width: 1366px;
+    .container {
+            width: 1366px;
+            margin-right: auto;
+            margin-left: auto;
+            .home-hero:hover .arr {
+                display: block;
+            }
+            .home-hero {
+                position: absolute;
+                height: 600px;
+                width: 1366px;
+                border-left-style: none;
+                overflow: hidden;
+                z-index: 20;
+                #home-hero-slider {
+                    position: absolute;
+                    height: 600px;
+                    width: 4098px;
+                    z-index: 21;
+                    .i1 {
+                        float: left;
+                        background-color: #6AB34B;
+                    }
+                    .i2{
+                        float: left;
+                        background-color: #FFB119;
+                    }
+                    .i3{
+                        float: left;
+                        background-color: #F55D5D;
+                    }
+                }
+                .but1 {
+                    position: absolute;
+                    height: 10px;
+                    width: 150px;
+                    z-index: 22;
+                    bottom: 50px;
+                    right: 45%;
+                    span {
+                        cursor: pointer;
+                        float: left;
+                        border: 1px solid #fff;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: transparent;
+                        margin-right: 10px;
+                    }
+                    .on {
+                        background: gray;
+                    }
+                }
+                .arr1 {
+                    cursor: pointer;
+                    display: block;
+                    width: 67px;
+                    height: 74px;
+                    z-index: 22;
+                    position: absolute;
+                    top: 180px;
+                    background: url(../img/miliao-12.png) no-repeat -3px -23px;
+                }
+                 .arr2 {
+                    cursor: pointer;
+                    display: block;
+                    width: 67px;
+                    height: 74px;
+                    z-index: 22;
+                    position: absolute;
+                    top: 180px;
+                    background: url(../img/miliao-12.png) no-repeat -3px -145px;
+                }
+                #pre {
+                    left: 50px;
+                }
+                #next {
+                    right: 50px;
+                }
+            }
+    }
+} 
+.content{
+    position: relative;
+    z-index: 10;
+    height: 350px;
+    width: 1366px;
+    .android{
+        float:left;
+        margin-left: 80px;
+        height: 310px;
+        border: 1px solid #E6E6E6;
+    }
+    .ios{
+        float:left;
+        margin-left: 50px;
+        height: 310px;
+        border: 1px solid #E6E6E6;
+    }
+    .pc{
+        float:left;
+        margin-left: 50px;
+        height: 310px;
+        border: 1px solid #E6E6E6;
+    }
+    .content-msg{
+        margin-left: 100px;
+        margin-top: 20px;
+        font-size: 20px;
+        span{
+            font-size: 14px;
+            color:#666666;
+            padding-left: 10px;
+        }
+    }
+    .btn{
+        cursor: pointer;
+        display: block;
+        width: 180px;
+        height: 40px;
+        z-index: 22;
+        position: absolute;
+        margin-left:75px;
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: #2A8FFA;
+        .btn-android{
+            display: block;
+            width: 180px;
+            height: 40px;
+            z-index: 22;
+            position: absolute;
+            left:20px;
+            top:-5px;
+            background: url(../img/miliao-13.png) no-repeat -3px 0px;
+        }
+        .btn-ios{
+            display: block;
+            width: 180px;
+            height: 40px;
+            z-index: 22;
+            position: absolute;
+            left: 25px;
+            top:-10px;
+            background: url(../img/miliao-13.png) no-repeat -3px -45px;
+        }
+        .btn-pc{
+            display: block;
+            width: 180px;
+            height: 40px;
+            z-index: 22;
+            position: absolute;
+            left:25px;
+            top:-8px;
+            background: url(../img/miliao-13.png) no-repeat -3px -90px;
+        }
+    }
+}
+.footer{
+    position: relative;
+    z-index: 10;
+    height: 100px;
+    width: 1366px;
+    .friends_link{
+        float:left;
+        margin-left: 350px;
+        ul{
+            list-style: none;
+            font-size: 13px;
+            color:gray;
+            li{
+                float:left;
+                margin-left: 10px;
+                a{
+                    text-decoration: none;
+                    color:gray;
+                }      
+            }
+        }
+    }
+    .copyright{
+        float:left;
+        margin-top: 10px;
+        font-size: 14px;
+        color:gray;
+        margin-left: 500px;
+    }
+    .copybottom{
+        float:left;
+        margin-top: 10px;
+        margin-left: 340px;
+        height: 33px;
+        .mi-img1{
+            float:left
+        }
+        .mi-img2{
+            float:left;
+            margin-left: 10px;
+        }
+        span{
+            float:left;
+            font-size: 14px;
+            color:gray;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+    }
+}

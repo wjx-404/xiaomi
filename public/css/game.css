@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  position: relative;
+  width: 1366px;
+  height: 40px;
+  z-index: 30;
+  font-size: 12px;
+  background: #333;
+}
+.header .container {
+  height: 40px;
+  margin-right: auto;
+  margin-left: 25px;
+  line-height: 40px;
+}
+.header .container a {
+  font-size: 15px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #666666;
+}
+.header .container .sep {
+  padding-left: 10px;
+  color: #413B36;
+}
+.header .container a:hover {
+  color: white;
+}
+.nav {
+  position: relative;
+  z-index: 10;
+  height: 60px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.nav .container {
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nav .container img {
+  float: left;
+  margin-left: 90px;
+}
+.nav .container .nav-header {
+  float: left;
+  margin-left: 320px;
+  margin-top: 15px;
+}
+.nav .container .nav-header a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.nav .container input {
+  height: 37px;
+  width: 213px;
+  color: #E4EAF1;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.nav .container button {
+  border: 1px solid gray;
+  width: 37px;
+  height: 37px;
+  margin-left: -5px;
+  margin-top: 10px;
+  background-color: white;
+}
+.content-0 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-0 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-0 .container h1 {
+  float: left;
+}
+.content-0 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-0 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-0 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-0 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+  cursor: pointer;
+}
+.content-1 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-1 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-1 .container h1 {
+  float: left;
+}
+.content-1 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-1 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-1 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-1 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-2 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-2 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-2 .container h1 {
+  float: left;
+}
+.content-2 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-2 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-2 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-2 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-3 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-3 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-3 .container h1 {
+  float: left;
+}
+.content-3 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-3 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-3 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-3 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-4 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-4 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-4 .container h1 {
+  float: left;
+}
+.content-4 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-4 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-4 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-4 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-5 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-5 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-5 .container h1 {
+  float: left;
+}
+.content-5 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-5 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-5 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-5 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-6 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-6 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-6 .container h1 {
+  float: left;
+}
+.content-6 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-6 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-6 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-6 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-7 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-7 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-7 .container h1 {
+  float: left;
+}
+.content-7 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-7 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-7 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-7 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-8 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-8 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-8 .container h1 {
+  float: left;
+}
+.content-8 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-8 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-8 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-8 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-9 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-9 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-9 .container h1 {
+  float: left;
+}
+.content-9 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-9 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-9 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-9 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.content-10 {
+  position: relative;
+  z-index: 10;
+  height: 530px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.content-10 .container {
+  height: 530px;
+  margin-right: auto;
+  margin-left: 90px;
+}
+.content-10 .container h1 {
+  float: left;
+}
+.content-10 .container .dian {
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  float: left;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+.content-10 .container .xian {
+  border: 2px solid gray;
+  width: 0px;
+  height: 470px;
+  float: left;
+  margin-top: 70px;
+  margin-left: -38px;
+}
+.content-10 .container img {
+  border: 1px solid transparent;
+  width: 377px;
+  height: 521px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content-10 .container img:hover {
+  transform: scale(1.01);
+  float: left;
+}
+.footer {
+  position: relative;
+  z-index: 10;
+  height: 150px;
+  width: 1366px;
+  margin-top: 50px;
+}
+.footer p {
+  color: gray;
+  text-align: center;
+}
+.footer p a {
+  text-decoration: none;
+}
+.footer img {
+  float: left;
+  margin-left: 560px;
+  margin-top: 20px;
+}

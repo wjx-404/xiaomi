@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1349px;
+  height: 2200px;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+}
+.header {
+  width: 1349px;
+  height: 100px;
+  background-color: white;
+  margin: 0 auto;
+}
+.header .logo {
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.header .mycar {
+  font-size: 30px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #424242;
+}
+.header .enter {
+  width: 80px;
+  height: 40px;
+  float: right;
+  font-size: 13px;
+  color: gray;
+  list-style: none;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+.header .enter li {
+  float: left;
+  margin-left: 5px;
+}
+.header .enter li a {
+  text-decoration: none;
+  color: gray;
+}
+.header .enter li a:hover {
+  color: black;
+}
+.header .enter li .shu {
+  margin-left: 5px;
+}
+.xian0 {
+  width: 1349px;
+  height: 0px;
+  border: 1px solid #FF6700;
+  margin: 0 auto;
+}
+.center {
+  width: 1226px;
+  height: 455px;
+  margin: 0 auto;
+}
+.center .gou {
+  float: left;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.center .kong {
+  width: 400px;
+  height: 273px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.center .kong .ko {
+  font-size: 35px;
+  color: gray;
+  float: left;
+  margin-top: 20px;
+}
+.center .kong .ping {
+  font-size: 20px;
+  color: gray;
+  margin-top: 10px;
+  float: left;
+}
+.center .kong .an {
+  width: 400px;
+  height: 50px;
+  float: left;
+  margin-top: 40px;
+}
+.center .kong .an .liji {
+  float: left;
+  width: 170px;
+  height: 50px;
+  border: 1px solid #FF6700;
+  background-color: #FF6700;
+  text-decoration: none;
+  margin-left: 5px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+.center .kong .an .shop {
+  float: left;
+  width: 170px;
+  height: 50px;
+  border: 1px solid #FF6700;
+  background-color: #FF6700;
+  text-decoration: none;
+  margin-left: 10px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+.tuijie {
+  width: 1226px;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  line-height: 40px;
+  margin-top: 100px;
+}
+.tuijie .xian1 {
+  float: left;
+  width: 450px;
+  height: 0px;
+  display: block;
+  border: 1px solid gray;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.tuijie .tui {
+  font-size: 25px;
+  color: #757575;
+  float: left;
+  margin-left: 100px;
+}
+.tuijie .xian2 {
+  float: right;
+  width: 450px;
+  height: 0px;
+  display: block;
+  border: 1px solid gray;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.content {
+  width: 1226px;
+  height: 965px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  margin-top: 30px;
+}
+.content ul {
+  list-style: none;
+}
+.content .heng {
+  width: 1226px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+  float: left;
+  margin-top: 20px;
+}
+.content .heng ul {
+  width: 220px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  margin-left: 20px;
+}
+.content .heng ul .tu {
+  float: left;
+  margin-left: 35px;
+}
+.content .heng ul .tu:hover {
+  cursor: pointer;
+}
+.content .heng ul .name:hover {
+  cursor: pointer;
+}
+.content .heng ul .name {
+  float: left;
+  font-size: 15px;
+  color: #333333;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.content .heng ul .pice {
+  float: left;
+  color: #FF6700;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 15px;
+}
+.content .heng ul .guanzhu {
+  float: left;
+  color: #757575;
+  margin-top: 10px;
+  margin-left: 70px;
+  font-size: 13px;
+}
+.content .heng ul .join {
+  float: left;
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #FF6700;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+/*site-footer*/
+.site-footer {
+  width: 1349px;
+  background-color: white;
+  margin-top: 50px;
+}
+.site-footer .footer-service {
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.site-footer .footer-service .list-service {
+  margin-bottom: 27px;
+  list-style-type: none;
+}
+.site-footer .footer-service .list-service li:first-child {
+  border-left: 0;
+}
+.site-footer .footer-service .list-service li {
+  float: left;
+  width: 19.8%;
+  height: 25px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.site-footer .footer-service .list-service li a {
+  text-decoration: none;
+  color: #757575;
+}
+.site-footer .footer-service .list-service li a:hover {
+  color: #ff6700;
+}
+.site-footer .footer-links {
+  position: relative;
+  padding: 40px 0;
+  height: 112px;
+  margin-left: 100px;
+}
+.site-footer .footer-links .col-contact {
+  float: right;
+  width: 251px;
+  height: 112px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+}
+.site-footer .footer-links .col-contact a {
+  text-decoration: none;
+}
+.site-footer .footer-links .col-contact .phone {
+  margin: 0 0 5px;
+  font-size: 22px;
+  color: #ff6700;
+}
+.site-footer .footer-links .col-contact p {
+  margin: 16px 0 10px;
+  font-size: 12px;
+}
+.site-footer .footer-links .col-contact .btn {
+  width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  border: 1px solid #b0b0b0;
+  cursor: pointer;
+  border-color: #ff6700;
+  background: #fff;
+  color: #ff6700;
+}
+.site-footer .footer-links .col-contact .btn:hover {
+  color: #FFF;
+  background-color: #ff6700;
+}
+.site-footer .footer-links .col-links {
+  float: left;
+  width: 160px;
+  height: 112px;
+  margin: 0;
+}
+.site-footer .footer-links .col-links a {
+  color: #757575;
+  text-decoration: none;
+}
+.site-footer .footer-links .col-links a:hover {
+  color: #ff6700;
+}
+.site-footer .footer-links .col-links dt {
+  margin: -1px 0 26px;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #424242;
+}
+.site-footer .footer-links .col-links dd {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+.site-footer .footer-links dl {
+  display: block;
+}
+/*site-info*/
+.site-info .logo {
+  float: left;
+  width: 57px;
+  height: 57px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.site-info .info-text {
+  float: left;
+  width: 760px;
+  color: #b0b0b0;
+  font-size: 12px;
+  margin-top: 100px;
+}
+.site-info .info-text p {
+  margin: 0;
+  line-height: 18px;
+}
+.site-info .info-text a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+.site-info .info-text a:hover {
+  color: #ff6700;
+}
+.site-info .info-links {
+  float: right;
+  display: block;
+  height: 28px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.site-info .info-links img {
+  width: auto;
+  height: 28px;
+  margin-left: 7px;
+}
+.site-info .slogan {
+  float: left;
+  margin-top: 50px;
+  margin-left: 350px;
+  font-size: 20px;
+  color: #333;
+}
